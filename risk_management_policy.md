@@ -23,6 +23,7 @@ This policy establishes the scope, objectives, and procedures of BloomAPI's info
 		* These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the BloomAPI Platform.
 	3. While making changes to BloomAPI physical equipment and facilities that introduce new, untested configurations.
 	4. BloomAPI performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
+	5. BloomAPI performs and documents an enterprise risk analysis at least annually, including review of technology assets, network maps, ePHI data flows, reasonably anticipated threats and vulnerabilities, current safeguards, likelihood, impact, risk level, remediation owner, target remediation date, and residual risk acceptance.
 3. BloomAPI implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
 	1. Ensure the confidentiality, integrity, and availability of all ePHI BloomAPI receives, maintains, processes, and/or transmits for its Customers;
 	2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;
@@ -32,6 +33,7 @@ This policy establishes the scope, objectives, and procedures of BloomAPI's info
 5. All BloomAPI workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation according to BloomAPI's policies, which is outlined in the BloomAPI Policy Management Policy.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of BloomAPI's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
+8. BloomAPI tracks regulatory changes affecting HIPAA, HITECH, Part 2, and state breach notification laws. Proposed rules, including the 2025 HIPAA Security Rule cybersecurity NPRM, are tracked as readiness items until finalized and assigned a compliance date.
 
 ## Process Documentation
 

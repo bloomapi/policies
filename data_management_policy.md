@@ -26,4 +26,7 @@ Violation of this policy and its procedures by workforce members may result in c
 	* Date & time of backup
 	* Where backup stored (or to whom it was provided)
 5. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
-6. Test backups and document that files have been completely and accurately restored from the backup media.
+6. Protect backup encryption keys separately from encrypted backup data and limit key access to authorized workforce members.
+7. Maintain backup protections that are resilient to accidental deletion, malicious alteration, ransomware, and compromise of a single production account where feasible.
+8. Test backups at least annually and after material backup architecture changes, and document that files have been completely and accurately restored from the backup media.
+9. Document recovery point objectives and recovery time objectives for critical systems and review them at least annually.

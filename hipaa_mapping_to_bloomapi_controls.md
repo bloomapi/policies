@@ -42,3 +42,18 @@ Documentation - 164.316(b)(1)(i) | Policy Management Policy
 Notification in the Case of Breach - 13402(a) and (b) | Breach Policy
 Timelines of Notification - 13402(d)(1) | Breach Policy
 Content of Notification - 13402(f)(1) | Breach Policy
+
+| **42 CFR Part 2 - SUD Records** Requirement | BloomAPI Control
+--- | ---
+Part 2 permitted uses, disclosures, and redisclosure restrictions | Part 2 SUD Records Policy, Business Associate Agreements, 3rd Party Policy
+Part 2 legal-proceeding restrictions and SUD counseling note protections | Part 2 SUD Records Policy, Incident Response Policy
+Part 2 breach notification and enforcement alignment with HIPAA | Part 2 SUD Records Policy, Breach Policy
+Part 2 patient notice and Customer support requirements | Part 2 SUD Records Policy, Policy Management Policy
+
+| **HIPAA Security Rule Cybersecurity Readiness** Proposed 2025 NPRM Item | BloomAPI Control
+--- | ---
+Technology asset inventory and network map | Configuration Management Policy, Data Integrity Policy
+Multi-factor authentication and access review | System Access Policy
+Encryption, segmentation, backups, and recovery testing | Data Management Policy, Disaster Recovery Policy, Data Integrity Policy
+Vulnerability scanning and penetration testing | Vulnerability Scanning Policy, Auditing Policy
+Annual compliance evaluation and risk analysis documentation | Risk Management Policy, Auditing Policy, Policy Management Policy

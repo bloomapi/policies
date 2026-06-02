@@ -1,6 +1,6 @@
 BUSINESS ASSOCIATE AGREEMENT
 
-This Business Associate Agreement (this “Agreement”) by and between _______________ (“Covered Entity”) and BloomAPI, Inc. (“Business Associate”), is entered into on ____________, 201_ (“Effective Date”), for the purposes of complying with the Health Insurance Portability and Accountability Act of 1996 and regulations promulgated thereunder (“HIPAA”) and the security provisions of the American Recovery and Reinvestment Act of 2009, also known as the Health Information Technology for Economic and Clinical Health Act (the “HITECH Act”). 
+This Business Associate Agreement (this “Agreement”) by and between _______________ (“Covered Entity”) and BloomAPI, Inc. (“Business Associate”), is entered into on ____________, 20__ (“Effective Date”), for the purposes of complying with the Health Insurance Portability and Accountability Act of 1996 and regulations promulgated thereunder (“HIPAA”), the security provisions of the American Recovery and Reinvestment Act of 2009, also known as the Health Information Technology for Economic and Clinical Health Act (the “HITECH Act”), and, where applicable, the Confidentiality of Substance Use Disorder Patient Records regulations at 42 CFR Part 2 (“Part 2”).
 
 WITNESSETH
 
@@ -19,6 +19,8 @@ I. DEFINITIONS.  For the purposes of this Agreement, capitalized terms shall hav
 	b. “Secretary” shall refer to the Secretary of the U.S. Department of Health and Human Services.
 	
 	c. “Unsecured PHI” shall mean PHI that is not rendered unusable, unreadable, or indecipherable to unauthorized individuals through the use of a technology or methodology specified by the Secretary (e.g., encryption).  This definition applies to both hard copy PHI and electronic PHI.  
+
+	d. “Part 2 Records” shall mean records subject to 42 CFR Part 2 that are created, received, maintained, or transmitted by Business Associate for or on behalf of Covered Entity.
 
 II. OBLIGATIONS OF BUSINESS ASSOCIATE.
 	
@@ -41,6 +43,8 @@ II. OBLIGATIONS OF BUSINESS ASSOCIATE.
 		vi. Business Associate acknowledges that, as between Business Associate and Covered Entity, all PHI shall be and remain the sole property of Covered Entity, including any and all forms thereof developed by Business Associate in the course of its fulfillment of its obligations pursuant to the Agreement and Service Agreement. 
 		
 		vii. To the extent that Business Associate is to carry out any of Covered Entity’s obligations that are regulated by HIPAA, Business Associate shall comply with the HIPAA requirements that apply to the Covered Entity in the performance of such obligation.
+
+		viii. To the extent Business Associate creates, receives, maintains, or transmits Part 2 Records for or on behalf of Covered Entity, Business Associate shall use and disclose such records only as permitted by this Agreement, the Service Agreement, Covered Entity's written instructions, and applicable law. Business Associate shall not use or disclose Part 2 Records in civil, criminal, administrative, or legislative proceedings against a patient unless authorized by a valid Part 2-compliant consent or court order.
 	
 	b. Safeguards.  Business Associate shall employ appropriate administrative, technical and physical safeguards, consistent with the size and complexity of Business Associate’s operations, to protect the confidentiality of PHI and to prevent the use or disclosure of PHI in any manner inconsistent with the terms of this Agreement.  Business Associate shall comply, where applicable, with Subpart C of 45 C.F.R. Part 164 with respect to electronic PHI to prevent use or disclosure of such electronic PHI other than as provided for by this Agreement.
 
@@ -49,7 +53,7 @@ II. OBLIGATIONS OF BUSINESS ASSOCIATE.
 	d. Individuals’ Rights to Their PHI.
 		
 		i. To the extent Business Associate maintains PHI in a Designated Record Set, in order to allow Covered Entity to respond to a request by an Individual for access to PHI pursuant to 45 CFR Section 164.524, Business Associate, within ten (10) business days upon receipt of written request by Covered Entity, shall make available to Covered Entity such PHI.  
-			
+
 			1. In the event that any Individual requests access to PHI directly from Business Associate, Business Associate shall forward such request to Covered Entity within five (5) business days. 
 
 			2. Covered Entity will be responsible for making all determinations regarding the grant or denial of an Individual’s request for PHI and Business Associate will make no such determinations.  Except as Required by Law, only Covered Entity will be responsible for releasing PHI to an Individual pursuant to such a request.  Any denial of access to PHI determined by Covered Entity pursuant to 45 CFR Section 164.524, and conveyed to Business Associate by Covered Entity, shall be the responsibility of Covered Entity, including resolution or reporting of all appeals and/or complaints arising from denials.
@@ -57,7 +61,7 @@ II. OBLIGATIONS OF BUSINESS ASSOCIATE.
 		ii. To the extent Business Associate maintains PHI in a Designated Record Set, in order to allow Covered Entity to respond to a request by an Individual for an amendment to PHI, Business Associate shall, within ten (10) business days upon receipt of a written request by Covered Entity, make available to Covered Entity such PHI.
 
 			1. In the event that any Individual requests amendment of PHI directly from Business Associate, Business Associate shall forward such request to Covered Entity within five (5) business days. 
-			
+
 			2. Covered Entity will be responsible for making all determinations regarding the grant or denial of an Individual’s request for an amendment to PHI and Business Associate will make no such determinations.  Any denial of amendment to PHI determined by Covered Entity pursuant to 45 CFR Section 164.526, and conveyed to Business Associate by Covered Entity, shall be the responsibility of Covered Entity, including resolution or reporting of all appeals and/or complaints arising from denials.
 			
 			3. Within ten (10) business days of receipt of a request from Covered Entity to amend an individual’s PHI in the Designated Record Set, Business Associate shall incorporate any approved amendments, statements of disagreement, and/or rebuttals into its Designated Record Set as required by 45 CFR Section 164.526.
@@ -70,15 +74,15 @@ II. OBLIGATIONS OF BUSINESS ASSOCIATE.
 			
 			3. Business Associate shall implement an appropriate record keeping process to enable it to comply with the requirements of this Agreement.
 
-	e. Disclosure to Third Parties.  Business Associate shall obtain and maintain a written agreement with each subcontractor or agent that has or will have access to PHI, which is received from, or created or received by, Business Associate for or on behalf of Covered Entity, pursuant to which agreement such subcontractor and agent agrees to be bound by the same restrictions, terms, and conditions that apply to Business Associate pursuant to the Agreement with respect to such PHI.
+	e. Disclosure to Third Parties.  Business Associate shall obtain and maintain a written agreement with each subcontractor or agent that has or will have access to PHI, which is received from, or created or received by, Business Associate for or on behalf of Covered Entity, pursuant to which agreement such subcontractor and agent agrees to be bound by restrictions, terms, conditions, and safeguards at least as protective as those that apply to Business Associate pursuant to the Agreement with respect to such PHI. Where the subcontractor or agent will access Part 2 Records, the agreement must also require compliance with applicable Part 2 restrictions.
 
 	f. Reporting Obligations.
 
-		i. In the event of a Breach of any Unsecured PHI that Business Associate accesses, maintains, retains, modifies, records, or otherwise holds or uses on behalf of Covered Entity, Business Associate shall report such Breach to Covered Entity as soon as practicable, but in no event later than ten (10) business days after the date the Breach is discovered.  Notice of a Breach shall include, to the extent such information is available: (i) the identification of each individual whose PHI has been, or is reasonably believed to have been, accessed, acquired, or disclosed during the Breach; (ii) the date of the Breach, if known, and the date of discovery of the Breach; (iii) the scope of the Breach; and (iv) the Business Associate’s response to the Breach.  
-		
-		ii. In the event of a use or disclosure of PHI that is improper under this Agreement but does not constitute a Breach, Business Associate shall report such use or disclosure to Covered Entity within ten (10) business days after the date on which Business Associate becomes aware of such use or disclosure.
-		
-		iii. In the event of any successful Security Incident, Business Associate shall report such Security Incident in writing to Covered Entity within ten (10) business days of the date on which Business Associate becomes aware of such Security Incident.  The parties acknowledge that unsuccessful Security Incidents (e.g., pings) occur within the normal course of business and shall not be reported pursuant to this Agreement.
+			i. In the event of a Breach of any Unsecured PHI that Business Associate accesses, maintains, retains, modifies, records, or otherwise holds or uses on behalf of Covered Entity, Business Associate shall report such Breach to Covered Entity as soon as practicable, but in no event later than ten (10) business days after discovery. Notice of a Breach shall include, to the extent such information is available: (i) the identification of each individual whose PHI has been, or is reasonably believed to have been, accessed, acquired, or disclosed during the Breach; (ii) the date of the Breach, if known, and the date of discovery of the Breach; (iii) the scope of the Breach; and (iv) the Business Associate’s response to the Breach. Business Associate shall supplement the notice as additional information becomes available.
+
+			ii. In the event of a use or disclosure of PHI that is improper under this Agreement but does not constitute a Breach, Business Associate shall report such use or disclosure to Covered Entity as soon as practicable, but in no event later than ten (10) business days after Business Associate becomes aware of such use or disclosure.
+
+			iii. In the event of any successful Security Incident, Business Associate shall report such Security Incident in writing to Covered Entity as soon as practicable, but in no event later than ten (10) business days after Business Associate becomes aware of such Security Incident.  The parties acknowledge that unsuccessful Security Incidents (e.g., pings) occur within the normal course of business and shall not be reported pursuant to this Agreement.
 
 III. OBLIGATIONS OF COVERED ENTITY.
 
@@ -115,8 +119,10 @@ V. MISCELLANEOUS.
 	b. Interpretation.  Any ambiguity in this Agreement shall be resolved to permit the parties to comply with HIPAA and the HITECH Act.
 	
 	c. Conflicting Terms.  In the event that any terms of this Agreement conflict with any terms of the Service Agreement, the terms of this Agreement shall govern and control.
+
+	d. Existing Agreements. Existing signed agreements remain governed by their executed terms unless amended in writing by the parties.
 	
-	d. Notices.  Any notices pertaining to this Agreement shall be given in writing and shall be deemed duly given when personally delivered to a Party or a Party's authorized representative as listed below or sent by means of a reputable overnight carrier, or sent by means of certified mail, return receipt requested, postage prepaid.  Notices shall be deemed given upon receipt.  Notices shall be addressed to the appropriate Party as follows:
+	e. Notices.  Any notices pertaining to this Agreement shall be given in writing and shall be deemed duly given when personally delivered to a Party or a Party's authorized representative as listed below or sent by means of a reputable overnight carrier, or sent by means of certified mail, return receipt requested, postage prepaid.  Notices shall be deemed given upon receipt.  Notices shall be addressed to the appropriate Party as follows:
 
 If to Covered Entity:
 ________________
@@ -134,7 +140,7 @@ Attn: Compliance Officer
 
 
 
-e. Severability.  The provisions of this Agreement shall be severable, and if any provision of this Agreement shall be held or declared to be illegal, invalid or unenforceable, the remainder of this Agreement shall continue in full force and effect as though such illegal, invalid or unenforceable provision had not been contained herein.
+	f. Severability.  The provisions of this Agreement shall be severable, and if any provision of this Agreement shall be held or declared to be illegal, invalid or unenforceable, the remainder of this Agreement shall continue in full force and effect as though such illegal, invalid or unenforceable provision had not been contained herein.
 	
 IN WITNESS WHEREOF, each of the undersigned has duly executed this Agreement on behalf of the party and on the date set forth below.
 
@@ -160,9 +166,3 @@ Print: ___________________________
 Title: ___________________________
 
 Date: ___________________________
-
-
-
-
-
-

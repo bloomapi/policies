@@ -48,8 +48,9 @@ The BloomAPI incident response process follows the process recommended by SANS, 
 		4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
 		5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
 		6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-	11. The Security Officer, Privacy Officer, or BloomAPI representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-	12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to BloomAPI and potentially external.
+11. The Security Officer, Privacy Officer, or BloomAPI representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to BloomAPI and potentially external.
+13. If an incident involves Part 2 records, SUD counseling notes, reproductive health information, legal process, law enforcement requests, or other specially protected information, the Privacy Officer is included in the response before disclosure or external production of records.
 
 ### Containment Phase (Technical)
 
@@ -118,6 +119,14 @@ The Follow-up Phase represents the review of the security incident to look for "
 ### Periodic Evaluation
 
 It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the BloomAPI's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
+
+### Legal and Law Enforcement Requests
+
+1. Requests from law enforcement, regulators, courts, attorneys, public agencies, or other legal requestors for PHI, ePHI, Part 2 records, Customer data, logs, or account information must be escalated to the Privacy Officer before disclosure.
+2. BloomAPI verifies the identity and authority of the requestor and documents the request, legal basis, review decision, information disclosed, date of disclosure, and any Customer notice.
+3. BloomAPI notifies the affected Customer before disclosure unless prohibited by law, court order, or documented emergency circumstances.
+4. BloomAPI discloses only the minimum necessary information required by the request and applicable law.
+5. Requests involving Part 2 records or SUD counseling notes require review under the Part 2 SUD Records Policy before disclosure.
 
 ## Security Incident Response Team (SIRT)
 
