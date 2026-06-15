@@ -15,6 +15,7 @@ Despite not being a requirement within HIPAA, BloomAPI understand and appreciate
 	3. If Customer downloads data or does not respond to notices from BloomAPI within 30 days, BloomAPI may remove data from BloomAPI systems and Customer is sent notice of removal of data.
 	4. Customer data retained in backups, logs, legal holds, security records, or other systems where immediate deletion is infeasible remains protected under BloomAPI policies and applicable agreements until it is deleted or destroyed in the normal retention cycle.
 	5. Part 2 records are retained, returned, or destroyed according to Customer instructions, applicable Part 2 agreements, legal holds, and applicable law.
+	6. Cloud Spanner backups are retained for 30 days.
 
 ## Retention Verification TODOs
 
@@ -26,5 +27,4 @@ The following retention details must be verified before final retention periods 
 * Sentry event retention and whether PHI or Part 2 data can reach Sentry.
 * Customer login history retention and whether the system stores full login history or only last activity.
 * GCP Cloud Audit Logs retention and export configuration for IAM, administrative, and configuration changes.
-* Database backup retention and deletion cycle.
 * PostHog event retention and whether PHI or Part 2 data can reach PostHog.

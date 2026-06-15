@@ -1,8 +1,8 @@
 # HIPAA Compliance Policies
 
 Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy 
-examples that fit our company, and couldn't find any. So we wrote our own. Importantly, these policies have been through 
-three external audits--two HIPAA audits, and one HITRUST audit.
+examples that fit our company, and couldn't find any. So we wrote our own. These policies are internally maintained and
+reviewed at least annually by our Security Officer and Privacy Officer.
 
 ## Policy Index
 
