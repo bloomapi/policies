@@ -59,7 +59,7 @@ The following teams have been developed and trained to respond to a contingency 
 
 ## Testing and Maintenance
 
-The CTO shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan's execution. At a minimum the Contingency Plan shall be tested annually (within 365 days). The types of validation/testing exercises include technical testing. 
+The CTO shall establish criteria for validation/testing of a Contingency Plan, an annual test schedule, and ensure implementation of the test. This process will also serve as training for personnel involved in the plan's execution. At a minimum the Contingency Plan shall be tested annually (within 365 days) and after material changes to critical systems. The types of validation/testing exercises include technical testing.
 
 ### Technical Testing
 
@@ -68,6 +68,7 @@ The primary objective of the technical test is to ensure the communication proce
 * Process from backup system at the alternate site;
 * Restore system using backups; and
 * Switch compute and storage resources to alternate processing site. 
+* Validate recovery point objectives, recovery time objectives, logging, monitoring, and access controls after restoration.
 
 ## 1. Notification and Activation Phase
 
@@ -86,6 +87,7 @@ The notification sequence is listed below:
 	* BloomAPI will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.
 	* Other criteria, as appropriate and as defined by BloomAPI.
+	* A security incident, ransomware event, or operational failure materially affects the confidentiality, integrity, or availability of ePHI and requires alternate processing or recovery procedures.
 	* If the plan is to be activated, the CTO is to notify and inform team members of the details of the event and if relocation is required.
 	* Upon notification from the CTO, group leaders and managers are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
 	* The CTO is to notify the hosting facility partners that a contingency event has been declared and to ship the necessary materials (as determined by damage assessment) to the alternate site.

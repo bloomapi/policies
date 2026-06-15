@@ -18,7 +18,7 @@
 
 * *Backup Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them. Offered with all BloomAPI Add-ons and as an option for SaaS Customers.
 
-* *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, "compromises the security or privacy of the PHI" means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
+* *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. An impermissible use or disclosure of PHI is presumed to be a breach unless BloomAPI, a Customer, or another responsible regulated entity demonstrates and documents a low probability that the PHI has been compromised based on the required HIPAA risk assessment factors. Breach excludes:
 
 	1. Any unintentional acquisition, access or use of PHI by a workforce member or person acting under the authority of a Covered Entity (CE) or Business Associate (BA) if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under the Privacy Rule.
 	2. Any inadvertent disclosure by a person who is authorized to access PHI at a CE or BA to another person authorized to access PHI at the same CE or BA, or organized health care arrangement in which the CE participates, and the information received as a result of such disclosure is not further used or disclosed in a manner not permitted under the Privacy Rule.
@@ -79,6 +79,8 @@
 
 * *Partner*: Contractual bound 3rd party vendor with integration with the BloomAPI Platform. May offer Add-on services.
 
+* *Part 2 Records*: Records subject to 42 CFR Part 2 relating to the identity, diagnosis, prognosis, or treatment of a patient with a substance use disorder that are maintained in connection with a federally assisted Part 2 program. BloomAPI treats such records as specially protected when a Customer identifies accounts, data, workflows, or integrations as subject to Part 2.
+
 * *Platform*: The overall technical environment of BloomAPI.
 
 * *Protected Health Information (PHI)*: Individually identifiable health information that is created by or received by the organization, including demographic information, that identifies an individual, or provides a reasonable basis to believe the information can be used to identify an individual, and relates to:
@@ -110,6 +112,8 @@
 	* Identifies the risks to information system security and determines the probability of occurrence and the resulting impact for each threat/vulnerability pair identified given the security controls in place;
 	* Prioritizes risks; and
 	* Results in recommended possible actions/controls that could reduce or offset the determined risk.
+
+* *SUD Counseling Notes*: Notes recorded by a Part 2 program professional documenting or analyzing the contents of a conversation during a private substance use disorder counseling session or a group, joint, or family counseling session, and that are separated from the rest of the patient's SUD and medical record. SUD counseling notes receive protections similar to psychotherapy notes and require separate authorization unless another legal basis applies.
 
 * *Risk Management*: Within this policy, it refers to two major process components: risk assessment and risk mitigation. This differs from the HIPAA Security Rule, which defines it as a risk mitigation process only. The definition used in this policy is consistent with the one used in documents published by the National Institute of Standards and Technology (NIST).
 
@@ -160,5 +164,4 @@
 * *Workstation*: An electronic computing device, such as a laptop or desktop computer, or any other device that performs similar functions, used to create, receive, maintain, or transmit ePHI. Workstation devices may include, but are not limited to: laptop or desktop computers, personal digital assistants (PDAs), tablet PCs, and other handheld devices. For the purposes of this policy, "workstation" also includes the combination of hardware, operating system, application software, and network connection.
 
 * *Workforce*: Means employees, volunteers, trainees, and other persons whose conduct, in the performance of work for a covered entity, is under the direct control of such entity, whether or not they are paid by the covered entity. 
-
 

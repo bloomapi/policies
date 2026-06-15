@@ -1,6 +1,6 @@
 BUSINESS ASSOCIATE AGREEMENT 
 
-	This Business Associate Agreement (“Agreement”) by and between ____________ (“Company”) and BloomAPI, Inc. (“Service Provider”), is entered into on this _______ day of __________, 20___ (“Effective Date”), for the purposes of complying with the privacy and security regulations issued by the United States Department of Health and Human Services under the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”) and the security provisions of the American Recovery and Reinvestment Act of 2009, also known as the Health Information Technology for Economic and Clinical Health Act (the “HITECH Act”). Company and Service Provider are collectively referred to as the “Parties.”
+	This Business Associate Agreement (“Agreement”) by and between ____________ (“Company”) and BloomAPI, Inc. (“Service Provider”), is entered into on this _______ day of __________, 20___ (“Effective Date”), for the purposes of complying with the privacy and security regulations issued by the United States Department of Health and Human Services under the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”), the security provisions of the American Recovery and Reinvestment Act of 2009, also known as the Health Information Technology for Economic and Clinical Health Act (the “HITECH Act”), and, where applicable, the Confidentiality of Substance Use Disorder Patient Records regulations at 42 CFR Part 2 (“Part 2”). Company and Service Provider are collectively referred to as the “Parties.”
 
 WITNESSETH
 
@@ -20,6 +20,8 @@ I. 		Definitions
 	
 	B. “Secretary” shall have the meaning ascribed to this term in 45 CFR Section 160.103.
 
+	C. “Part 2 Records” shall mean records subject to 42 CFR Part 2 that are created, received, maintained, or transmitted by Service Provider for or on behalf of Company.
+
 II. 	Confidentiality of PHI
 
 	A) Obligations of Service Provider
@@ -37,6 +39,8 @@ II. 	Confidentiality of PHI
 	Subject to the restrictions set forth in this Agreement, Service Provider may disclose Protected Health Information for the proper management and administration of Service Provider, provided that: (a) disclosures are required by law; or (b) Service Provider obtains reasonable assurances from the person or entity to whom the information is disclosed that it will remain confidential and used or further disclosed only as Required by Law or for the purpose for which it was disclosed to the person or entity, and the person or entity notifies the Service Provider of any instances of which it is aware in which the confidentiality of the information has been breached.
 
 	Service Provider further represents that, to the extent Service Provider requests that Company disclose PHI to Service Provider, such request is only for the minimum necessary PHI for the accomplishment of the Service Provider’s purpose.
+
+	To the extent Service Provider creates, receives, maintains, or transmits Part 2 Records for or on behalf of Company, Service Provider shall use and disclose such records only as permitted by this Agreement, the Service Agreement, Company instructions, and applicable law. Service Provider shall not use or disclose Part 2 Records in civil, criminal, administrative, or legislative proceedings against a patient unless authorized by a valid Part 2-compliant consent or court order.
 
 		iii) 	Availability of Books and Records 
 
@@ -72,7 +76,7 @@ II. 	Confidentiality of PHI
 
 III.	Disclosure to Third Parties
 	
-		Service Provider shall obtain and maintain an agreement with each subcontractor or agent that has or will have access to PHI, pursuant to which agreement such subcontractor or agent agrees to be bound by the same restrictions, terms, and conditions that apply to Service Provider pursuant to the Agreement with respect to such PHI.  
+		Service Provider shall obtain and maintain an agreement with each subcontractor or agent that has or will have access to PHI, pursuant to which agreement such subcontractor or agent agrees to be bound by restrictions, terms, conditions, and safeguards at least as protective as those that apply to Service Provider pursuant to the Agreement with respect to such PHI. Where the subcontractor or agent will access Part 2 Records, the agreement must also require compliance with applicable Part 2 restrictions.
 
 IV. 	Safeguards
 		
@@ -80,7 +84,7 @@ IV. 	Safeguards
 
 V. 		Reporting of Breaches and Improper Disclosures
 
-		In the event of a Breach of any Unsecured PHI that Service Provider accesses, maintains, retains, modifies, records, or otherwise holds or uses on behalf of Company, Service Provider shall report such Breach to Company as soon as practicable, but in no event later than three (3) business days after the date the Breach is discovered.  Notice of a Breach shall include, to the extent such information is available: (i) the identification of each individual whose PHI has been, or is reasonably believed to have been, accessed, acquired, or disclosed during the Breach; (ii) the date of the Breach, if known, and the date of discovery of the Breach; (iii) the scope of the Breach; and (iv) the Service Provider’s response to the Breach.  
+		In the event of a Breach of any Unsecured PHI that Service Provider accesses, maintains, retains, modifies, records, or otherwise holds or uses on behalf of Company, Service Provider shall report such Breach to Company as soon as practicable, but in no event later than three (3) business days after discovery. Notice of a Breach shall include, to the extent such information is available: (i) the identification of each individual whose PHI has been, or is reasonably believed to have been, accessed, acquired, or disclosed during the Breach; (ii) the date of the Breach, if known, and the date of discovery of the Breach; (iii) the scope of the Breach; and (iv) the Service Provider’s response to the Breach. Service Provider shall supplement the notice as additional information becomes available.
 
 		In the event of a use or disclosure of PHI that is improper under this Agreement but does not constitute a Breach, Service Provider shall report such use or disclosure to Company within five (5) business days after the date on which Service Provider becomes aware of such use or disclosure.
 

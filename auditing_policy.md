@@ -26,12 +26,12 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 
 ## Applicable Standards from the HIPAA Security Rule
 
-* 45 CFR ¬ß 164.308(a)(1)(ii)(D) - Information System Activity Review
-* 45 CFR ¬ß 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
-* 45 CFR ¬ß 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
-* 45 CFR ¬ß 164.312(b) - Audit Controls
-* 45 CFR ¬ß 164.312(c)(2) - Mechanism to Authenticate ePHI
-* 45 CFR ¬ß 164.312(e)(2)(i) - Integrity Controls
+* 45 CFR § 164.308(a)(1)(ii)(D) - Information System Activity Review
+* 45 CFR § 164.308(a)(5)(ii)(B) & (C) - Protection from Malicious Software & Log-in Monitoring
+* 45 CFR § 164.308(a)(2) - HIPAA Security Rule Periodic Evaluation
+* 45 CFR § 164.312(b) - Audit Controls
+* 45 CFR § 164.312(c)(2) - Mechanism to Authenticate ePHI
+* 45 CFR § 164.312(e)(2)(i) - Integrity Controls
 
 # Auditing Policies
 
@@ -45,7 +45,7 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 	* Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
 	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. BloomAPI utilizes file system monitoring from OSSEC to assure the integrity of file system data.
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
-3. BloomAPI shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to BloomAPI.
+3. BloomAPI maintains logs from current audit and security event sources appropriate to the service. These logs may include HTTP/WAF traffic, system events, authentication and access events, monitoring alerts, error events, and incident investigation records depending on the system and configuration.
 4. BloomAPI leverages process monitoring tools throughout its environment.
 5. BloomAPI shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire BloomAPI Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
 6. BloomAPI's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
@@ -89,9 +89,31 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 
 ## Audit Log Security Controls and Backup
 
-4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
-5. All audit logs are encrypted in transit and at rest to control access to the content of the logs.
-6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of "separation of duties" to protect audit trails from hackers.
+1. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
+2. Audit logs are encrypted in transit and at rest where supported by the logging system and hosting environment.
+3. Audit logs should be stored or protected in a manner that limits the ability of production system administrators to alter audit evidence without detection.
+
+## Current Audit and Security Event Sources
+
+BloomAPI currently uses the following sources for audit, monitoring, and security event review:
+
+1. Google Cloud Armor HTTP and WAF logs for network and application-edge traffic visibility.
+2. Server and machine logs for system activity, service behavior, and authentication events where available.
+3. Customer account login and access events where available in application records.
+4. Database records that track last activity for Customer accounts.
+5. Grafana alerts for operational and security-relevant monitoring events.
+6. Sentry alerts and error events for application diagnostics.
+7. Incident tickets, investigation notes, and breach analysis records created during security or privacy investigations.
+
+## Recommended Audit Log Gaps and TODOs
+
+The following items must be verified before they are represented as completed audit controls:
+
+1. Confirm whether GCP Cloud Audit Logs are enabled and retained for IAM, administrative, and configuration changes.
+2. Confirm whether BloomAPI stores explicit login history or only last-activity records.
+3. Confirm whether support or administrator access to Customer accounts is logged separately.
+4. Confirm whether failed login and MFA events are logged and retained.
+5. Confirm whether production deploy and change logs are retained for audit review.
 
 ## Workforce Training, Education, Awareness and Responsibilities
 
@@ -110,11 +132,10 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 
 ## Retention of Audit Data
 
-1. Audit logs shall be maintained based on organizational needs. There is no standard or law addressing the retention of audit log/trail information. Retention of this information shall be based on:
-A. Organizational history and experience.
-B. Available storage space.
-1. Reports summarizing audit activities shall be retained for a period of six years.
-3. Log data is currently retained and readily accessible for a 1-month period. Beyond that, log data is available via cold backup. 
+1. Raw operational log retention depends on the logging source, system configuration, storage limits, and security needs. BloomAPI verifies each current log source before representing a final retention period as a completed control.
+2. Reports summarizing audit activities shall be retained for a period of six years.
+3. Security incident records, breach investigation documentation, risk assessments, access review evidence, and policy records are retained according to the applicable policy and legal/compliance requirements.
+4. Raw operational logs are distinct from legal and compliance records. A six-year documentation requirement does not mean every raw machine or application log is retained for six years.
 
 ## Potential Trigger Events
 
