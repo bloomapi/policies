@@ -16,8 +16,8 @@ Evaluation - 164.308(a)(8) | Auditing Policy
 | **Physical Safeguards** HIPAA Rule | BloomAPI Control
 --- | ---
 Facility Access Controls - 164.310(a)(1) | Facility and Disaster Recovery Policies
-Workstation Use - 164.310(b) | System Access, Approved Tools, and Employee Policies
-Workstation Security - 164.310('c') | System Access, Approved Tools, and Employee Policies
+Workstation Use - 164.310(b) | System Access, Approved Tools, managed browser/extension controls, and Employee Policies
+Workstation Security - 164.310('c') | System Access, Approved Tools, managed browser/extension controls, and Employee Policies
 Device and Media Controls - 164.310(d)(1) | Disposable Media and Data Management Policies
 
 | **Technical Safeguards** HIPAA Rule | BloomAPI Control
