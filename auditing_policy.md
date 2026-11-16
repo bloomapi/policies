@@ -43,7 +43,7 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 2. BloomAPI's auditing processes shall address access and activity at the following levels listed below. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
 	* User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
 	* Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
-	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. BloomAPI utilizes file system monitoring from OSSEC to assure the integrity of file system data.
+	* System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions.
 	* Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 3. BloomAPI maintains logs from current audit and security event sources appropriate to the service. These logs may include HTTP/WAF traffic, system events, authentication and access events, monitoring alerts, error events, and incident investigation records depending on the system and configuration.
 4. BloomAPI leverages process monitoring tools throughout its environment.
@@ -61,7 +61,7 @@ This policy applies to all BloomAPI Add-on systems, that store, transmit, or pro
 	* Identification of appropriate reporting channels for audit results and required follow-up.
 8. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
 	* Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
-9. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all patches are applied within 90 days after testing.
+9. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Security patches for known vulnerabilities are applied within the remediation timelines in the [Vulnerability Scanning Policy](vulnerability_scanning_policy.md). Other patches are applied within 90 days after testing.
 
 ## Audit Requests
 
@@ -109,7 +109,7 @@ BloomAPI currently uses the following sources for audit, monitoring, and securit
 
 The following items must be verified before they are represented as completed audit controls:
 
-1. Confirm whether GCP Cloud Audit Logs are enabled and retained for IAM, administrative, and configuration changes.
+1. GCP Admin Activity audit logs (IAM, administrative, and configuration changes) are always written to the locked _Required bucket and kept for 400 days. Confirm whether Data Access audit logs are enabled for the services that hold ePHI.
 2. Confirm whether BloomAPI stores explicit login history or only last-activity records.
 3. Confirm whether support or administrator access to Customer accounts is logged separately.
 4. Confirm whether failed login and MFA events are logged and retained.
@@ -132,7 +132,10 @@ The following items must be verified before they are represented as completed au
 
 ## Retention of Audit Data
 
-1. Raw operational log retention depends on the logging source, system configuration, storage limits, and security needs. BloomAPI verifies each current log source before representing a final retention period as a completed control.
+1. Raw operational log retention depends on the logging source, system configuration, storage limits, and security needs. BloomAPI verifies each current log source before representing a final retention period as a completed control. The following Google Cloud Logging retention periods have been verified in the production project:
+	* `_Default` log bucket (application, system, and HTTP/WAF logs): 180 days.
+	* `_Required` log bucket (GCP Admin Activity and other required audit logs): 400 days, in a locked bucket that cannot be shortened or deleted.
+	* `file-access-audit` log bucket (every granted and denied file-attachment link): six years.
 2. Reports summarizing audit activities shall be retained for a period of six years.
 3. Security incident records, breach investigation documentation, risk assessments, access review evidence, and policy records are retained according to the applicable policy and legal/compliance requirements.
 4. Raw operational logs are distinct from legal and compliance records. A six-year documentation requirement does not mean every raw machine or application log is retained for six years.

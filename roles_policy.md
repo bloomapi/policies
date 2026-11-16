@@ -1,6 +1,6 @@
 # Roles Policy
 
-BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
+BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below. As HIPAA permits, one person currently holds both roles: Tyler Brown, CEO, is BloomAPI's HIPAA Security & Privacy Officer.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -14,7 +14,7 @@ BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(
 
 ## Privacy Officer
 
-The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
+The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in their responsibilities.
 
 1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
 2. Assists in the administration and oversight of business associate agreements.

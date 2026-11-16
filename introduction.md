@@ -1,6 +1,6 @@
 # Introduction
 
-BloomAPI, Inc ("BloomAPI") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its customers. As providers of hosted software and infrastructure used by health technology vendors, developers, designers, agencies, custom development shops, and enterprises, BloomAPI strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by BloomAPI to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for BloomAPI Customers.
+BloomAPI, Inc ("BloomAPI") is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its customers. BloomAPI operates BloomText, a secure messaging product that healthcare provider organizations use to communicate with patients and colleagues. BloomAPI acts as a HIPAA Business Associate for these Customers. BloomAPI strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and assure known breaches are completely and effectively communicated in a timely manner. The following documents address core policies used by BloomAPI to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for BloomAPI Customers.
 
 ## Shared Responsibility
 
@@ -14,10 +14,10 @@ Below are mappings of HIPAA Rules to BloomAPI controls and a shared responsibili
 
 ## BloomAPI Organizational Concepts
 
-The physical infrastructure environment is hosted in Google Cloud Platform (GCP). Network components and supporting network infrastructure are contained within GCP infrastructure and managed by GCP. BloomAPI does not have physical access to the network components. The BloomAPI environment uses GCP services, Google Cloud Armor, managed and self-managed databases, application servers, logging and monitoring systems, and developer tool systems. Specific systems, third-party subprocessors, and data flows are tracked in BloomAPI's internal asset inventory and third-party inventory.
+The physical infrastructure environment is hosted in Google Cloud Platform (GCP). Network components and supporting network infrastructure are contained within GCP infrastructure and managed by GCP. BloomAPI does not have physical access to the network components. The BloomAPI production environment runs in the GCP us-central1 region and uses a regional Google Kubernetes Engine (GKE) cluster for application services, Cloud Spanner as the primary database, Cloud Storage for file attachments and backups, Cloud SQL for the data warehouse, Google Cloud Armor and GCP firewall rules for network protection, and Google Cloud Logging and Grafana for logging and monitoring. Search indexing runs on Elastic Cloud. Infrastructure is defined in Terraform. Specific systems, third-party subprocessors, and data flows are tracked in BloomAPI's internal asset inventory and third-party inventory.
 
 Within the BloomAPI Platform all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - databases, APIs, log servers, etc. BloomAPI assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
 ## Version Control
 
-Policies were last reviewed and updated June 2, 2026.
+Policies were last reviewed and updated November 16, 2026, by Tyler Brown, HIPAA Security & Privacy Officer. They are reviewed at least annually (see the [Policy Management Policy](policy_management_policy.md)).

@@ -31,10 +31,10 @@ Access to BloomAPI systems and application is limited for all users, including b
 
 ## Access Establishment and Modification
 
-* Requests for access to BloomAPI Platform systems and applications is made formally to the CTO, Privacy Officer, or Security Officer.
+* Requests for access to BloomAPI Platform systems and applications is made formally to the Security Officer.
 * Access is not granted until receipt, review, and approval by the BloomAPI Security Officer;
 * The request for access is retained for future reference.
-* All access to BloomAPI systems and services are reviewed and updated on an annual basis to assure proper authorizations are in place commiserate with job functions.
+* Access to BloomAPI systems and services is reviewed to assure proper authorizations are in place commensurate with job functions. Access to production systems, systems containing ePHI, and privileged access is reviewed at least quarterly. All other workforce access is reviewed at least annually. Each review is recorded with its date, the reviewer, and any access changed.
 * Any BloomAPI workforce member can request change of access by emailing the Security Officer.
 * Access to systems is controlled using centralized user management and authentication. All workforce access to production systems, administrative systems, source code systems, cloud consoles, and systems that create, receive, maintain, or transmit ePHI requires multi-factor authentication unless the Security Officer documents a temporary exception and compensating controls.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
@@ -54,8 +54,8 @@ Access to BloomAPI systems and application is limited for all users, including b
 
 ## Access Authorization
 
-* Role based access categories for each BloomAPI system and application are pre-approved by the Security Officer or CTO.
-* BloomAPI utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
+* Role based access categories for each BloomAPI system and application are pre-approved by the Security Officer.
+* BloomAPI uses GCP firewall rules and Google Cloud Armor to segment systems, prevent unauthorized access, and monitor and limit abusive traffic (see the [IDS Policy](ids_policy.md)).
 
 ## Person or Entity Authentication
 
@@ -87,16 +87,30 @@ Access to BloomAPI systems and application is limited for all users, including b
 
 * BloomAPI production systems are not accessible directly over wireless channels.
 
+## Remote Access
+
+* BloomAPI is a fully remote company with no corporate office network. Workforce members reach BloomAPI systems remotely through their BloomAPI Google identity (Google Workspace) with multi-factor authentication. This covers the Google Cloud console and command-line tools, Google Workspace, and the other BloomAPI systems that use Google sign-in.
+* Remote administrative access to production infrastructure is limited to authorized workforce members, uses the same Google identity and multi-factor authentication, and is logged in Google Cloud audit logs.
+* Systems that do not use Google sign-in, such as GitHub, require their own unique account with multi-factor authentication. Enforcing multi-factor authentication at the GitHub and npm organization level is an open item in BloomAPI's risk analysis roadmap.
+
+## Endpoints
+
+* Workforce members use company-issued laptops to access BloomAPI systems. Personally owned devices (BYOD) may not be used for production or administrative access.
+* Full-disk encryption (FileVault on macOS, BitLocker on Windows) must be on for every company-issued laptop. The Security Officer confirms encryption on each laptop when it is issued and records it in the workstation inventory (see the [Configuration Management Policy](configuration_management_policy.md)).
+* ePHI may not be stored on endpoints. Workforce members work with ePHI only inside BloomAPI systems and approved tools (see the [Approved Tools Policy](approved_tools_policy.md)), and may not copy it to removable media.
+* Laptops must use a password-protected screen lock and receive operating system security updates promptly.
+* BloomAPI does not yet use centralized mobile device management (MDM), so encryption, remote wipe, and USB controls are not centrally enforced. This is a documented, accepted risk in BloomAPI's risk analysis at the current team size, mitigated by full-disk encryption, multi-factor authentication, password managers, and the prohibition on storing ePHI on endpoints. BloomAPI will adopt MDM as the team grows, and re-evaluates this risk at each annual risk analysis.
+
 ## Employee Termination Procedures
 
-* The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
-* The Human Resources Department, users, and supervisors are required to notify the IT Help Desk to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
+* Users and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
+* Users and supervisors are required to notify the Security Officer to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
 	* The user has been using their access rights inappropriately;
 	* A user's password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
 	* An unauthorized individual is utilizing a user's User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 * The Security Officer will terminate users' access rights immediately upon notification.
 * The Security Officer audits and may terminate access of users that have not logged into organization's information systems/applications for an extended period of time.
-* Access to production systems and systems containing ePHI is reviewed at least quarterly. All other workforce access is reviewed at least annually.
+* Access reviews follow the quarterly and annual cadence in Access Establishment and Modification above.
 
 ## Paper Records
 

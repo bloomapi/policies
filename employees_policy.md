@@ -25,3 +25,15 @@ BloomAPI is committed to ensuring all workforce members actively address securit
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies.
 8. Access to internal BloomAPI systems can be requested by emailing the Security Officer. All requests for access must be granted by the BloomAPI Security Officer.
 9. Request for modifications of access for any BloomAPI employee can be made by emailing the Security Officer.
+
+## Background Checks
+
+1. Before a new workforce member, including a contractor, is given access to production systems or ePHI, BloomAPI runs a background check appropriate to the role and permitted by applicable law. The check is completed and reviewed by the Security Officer before access is granted.
+2. The result of each check is recorded, and records are kept confidential and retained according to applicable law.
+3. This requirement applies to workforce members who join on or after November 16, 2026.
+
+## Security Awareness Training and Phishing Exercises
+
+1. Security awareness training is part of the HIPAA training above: it is given within 30 days of starting and refreshed at least annually. It covers phishing and social engineering, password and multi-factor authentication practices, safe handling of ePHI, and how to report a suspected incident.
+2. BloomAPI runs a phishing exercise for all workforce members at least annually. Results are reviewed by the Security Officer, and workforce members who fall for the exercise receive follow-up training.
+3. Completion records for training and phishing exercises are retained for six years (see the [Roles Policy](roles_policy.md)).

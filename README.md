@@ -1,8 +1,8 @@
 # HIPAA Compliance Policies
 
-Our policies have been written with modern, cloud-based technology vendors in mind. We looked far and wide for policy 
-examples that fit our company, and couldn't find any. So we wrote our own. These policies are internally maintained and
-reviewed at least annually by our Security Officer and Privacy Officer.
+These are BloomAPI's own HIPAA compliance policies for BloomText. BloomAPI maintains them internally, and our HIPAA
+Security & Privacy Officer reviews them at least annually and after material changes. They were last reviewed in
+November 2026.
 
 ## Policy Index
 
@@ -19,7 +19,7 @@ reviewed at least annually by our Security Officer and Privacy Officer.
 * [Incident Response Policy](incident_response_policy.md)
 * [Breach Policy](breach_policy.md)
 * [Part 2 SUD Records Policy](part_2_sud_records_policy.md)
-* [Disaster Recover Policy](disaster_recovery_policy.md)
+* [Disaster Recovery Policy](disaster_recovery_policy.md)
 * [Disposable Media Policy](disposable_media_policy.md)
 * [IDS Policy](ids_policy.md)
 * [Vulnerability Scanning Policy](vulnerability_scanning_policy.md)

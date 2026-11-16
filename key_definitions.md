@@ -58,8 +58,8 @@
 	* The antivirus software alerts when it detects that a host is infected with a worm;
 	* Users complain of slow access to hosts on the Internet;
 	* The system administrator sees a filename with unusual characteristics;
-	* Automated alerts of activity from log monitors like OSSEC;
-	* An alert from OSSEC about file system integrity issues.
+	* Automated alerts from monitoring and logging tools, such as Google Cloud Armor, Cloud Logging, Grafana, or Sentry;
+	* An alert from a vulnerability scanner about a newly exposed weakness.
 
 * *Intrusion Detection System (IDS)*: A software tool use to automatically detect and notify in the event of possible unauthorized network and/or system access. 
 
