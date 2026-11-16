@@ -29,6 +29,6 @@ BloomAPI standardizes and automates configuration management by defining infrast
 ## Asset Inventory
 
 * **Cloud infrastructure.** The Terraform definitions, together with the Kubernetes manifests, are the inventory of BloomAPI's cloud infrastructure: projects, clusters, databases, storage buckets, networks, firewall and Cloud Armor rules, and service accounts. Resources that are not yet managed in Terraform are recorded in the inventory until they are brought under Terraform.
-* **Workstations.** BloomAPI keeps a list of company-issued laptops, including the assigned workforce member, the device, and confirmation that full-disk encryption is on.
+* **Workstations.** BloomAPI keeps a list of company-issued laptops, including the assigned workforce member, the device, and its MDM enrollment (see Endpoints in the [System Access Policy](systems_access_policy.md)).
 * **SaaS and third-party services.** BloomAPI keeps a list of SaaS tools and third-party services in use, including what data each one receives. Services that may receive PHI are also listed in [Subprocessors](subprocessors.md) and governed by the [3rd Party Policy](3rd_party_policy.md).
 * The workstation and SaaS lists are reviewed at least annually, and when a workforce member joins or leaves or a service is added or removed.

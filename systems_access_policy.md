@@ -96,10 +96,15 @@ Access to BloomAPI systems and application is limited for all users, including b
 ## Endpoints
 
 * Workforce members use company-issued laptops to access BloomAPI systems. Personally owned devices (BYOD) may not be used for production or administrative access.
-* Full-disk encryption (FileVault on macOS, BitLocker on Windows) must be on for every company-issued laptop. The Security Officer confirms encryption on each laptop when it is issued and records it in the workstation inventory (see the [Configuration Management Policy](configuration_management_policy.md)).
+* Every company-issued laptop (macOS or Windows) that accesses production or other BloomAPI systems must be enrolled in BloomAPI's mobile device management (MDM). MDM enforces on each enrolled laptop:
+	* full-disk encryption (FileVault on macOS, BitLocker on Windows);
+	* a password-protected screen lock after a period of inactivity;
+	* operating system security updates; and
+	* the ability to remotely lock and wipe the laptop if it is lost, stolen, or not returned.
+* BloomAPI is rolling out MDM as of November 2026. A laptop that is not yet enrolled must be enrolled as part of that rollout, and new laptops are enrolled before they are used to access BloomAPI systems. The Security Officer records each laptop and its enrollment in the workstation inventory (see the [Configuration Management Policy](configuration_management_policy.md)).
 * ePHI may not be stored on endpoints. Workforce members work with ePHI only inside BloomAPI systems and approved tools (see the [Approved Tools Policy](approved_tools_policy.md)), and may not copy it to removable media.
-* Laptops must use a password-protected screen lock and receive operating system security updates promptly.
-* BloomAPI does not yet use centralized mobile device management (MDM), so encryption, remote wipe, and USB controls are not centrally enforced. This is a documented, accepted risk in BloomAPI's risk analysis at the current team size, mitigated by full-disk encryption, multi-factor authentication, password managers, and the prohibition on storing ePHI on endpoints. BloomAPI will adopt MDM as the team grows, and re-evaluates this risk at each annual risk analysis.
+* A lost or stolen laptop must be reported to the Security Officer immediately, who locks or wipes it through MDM and handles the event under the [Incident Response Policy](incident_response_policy.md).
+* BloomAPI does not use a dedicated data loss prevention (DLP) tool. Instead it relies on compensating controls: ePHI may not be stored on endpoints, removable media may not be used for ePHI, regulated data may not be entered into unapproved tools (see the [Approved Tools Policy](approved_tools_policy.md)), and access to ePHI systems requires multi-factor authentication.
 
 ## Employee Termination Procedures
 

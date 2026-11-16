@@ -32,8 +32,8 @@ BloomAPI is committed to ensuring all workforce members actively address securit
 2. The result of each check is recorded, and records are kept confidential and retained according to applicable law.
 3. This requirement applies to workforce members who join on or after November 16, 2026.
 
-## Security Awareness Training and Phishing Exercises
+## Security Awareness Training
 
 1. Security awareness training is part of the HIPAA training above: it is given within 30 days of starting and refreshed at least annually. It covers phishing and social engineering, password and multi-factor authentication practices, safe handling of ePHI, and how to report a suspected incident.
-2. BloomAPI runs a phishing exercise for all workforce members at least annually. Results are reviewed by the Security Officer, and workforce members who fall for the exercise receive follow-up training.
-3. Completion records for training and phishing exercises are retained for six years (see the [Roles Policy](roles_policy.md)).
+2. Phishing awareness is covered in this annual security and HIPAA training. BloomAPI does not currently run simulated phishing exercises.
+3. Training completion records are retained for six years (see the [Roles Policy](roles_policy.md)).
