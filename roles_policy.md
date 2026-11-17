@@ -1,6 +1,6 @@
 # Roles Policy
 
-BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
+BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below. Tyler Brown, CEO, is BloomAPI's HIPAA Security Officer, and Parsa Khazaeepoul is BloomAPI's HIPAA Privacy Officer.
 
 ## Applicable Standards from the HITRUST Common Security Framework
 
@@ -14,14 +14,14 @@ BloomAPI has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(
 
 ## Privacy Officer
 
-The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
+The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in their responsibilities.
 
 1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
 2. Assists in the administration and oversight of business associate agreements.
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current BloomAPI Privacy Officer is Eric Jain ([ejain@bloomapi.com](mailto:ejain@bloomapi.com)).
+The current BloomAPI Privacy Officer is Parsa Khazaeepoul ([parsa@bloomapi.com](mailto:parsa@bloomapi.com)).
 
 ## Workforce Training Responsibilities
 
@@ -62,7 +62,7 @@ The current BloomAPI Privacy Officer is Eric Jain ([ejain@bloomapi.com](mailto:e
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of BloomAPI security policies and non-compliance with the security regulations [164.308(a)(1)(ii)(c)], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current BloomAPI Security Officer is Eric Jain ([ejain@bloomapi.com](mailto:ejain@bloomapi.com)).
+The current BloomAPI Security Officer is Tyler Brown ([tyler@bloomapi.com](mailto:tyler@bloomapi.com)).
 
 ## Organizational Responsibilities
 

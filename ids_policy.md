@@ -14,7 +14,9 @@ In order to preserve the integrity of data that BloomAPI stores, processes, or t
 
 ## Intrusion Detection Policy
 
-* BloomAPI firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
-* All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed bi-annually by the engineering team.
-* BloomAPI utilizes redundant firewall on network perimeters.
-* Static IP addresses are used for BloomAPI servers.
+* Public traffic to BloomText reaches its backends through Google Cloud load balancers protected by a Google Cloud Armor security policy. Cloud Armor is Google's web application firewall (WAF) service: its rules allow, deny, or throttle requests by attributes such as path, origin, and request rate before they reach BloomAPI services, and it logs HTTP and WAF traffic for review.
+* Cloud Armor rate-limiting rules automatically throttle or temporarily ban sources that send excessive requests, including repeated login attempts. Cloud Armor also applies geographic restrictions to incoming traffic. Login traffic that crosses a defined threshold generates an alert to BloomAPI.
+* Google Cloud's infrastructure provides network-level protection against denial of service attacks for traffic through its load balancers.
+* GCP VPC firewall rules restrict network access to BloomAPI systems to approved sources, ports, and protocols. Access to the GKE cluster control plane is limited to authorized administrator networks.
+* Cloud Armor rules and firewall rules are defined in Terraform. New rules and changes are made through reviewed pull requests and tested before they are relied on in production (see the [Configuration Management Policy](configuration_management_policy.md)). Cloud Armor and firewall rules are reviewed at least annually and after a security incident involving network traffic.
+* Alerts and suspicious activity are investigated according to the [Incident Response Policy](incident_response_policy.md).
