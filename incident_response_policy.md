@@ -48,7 +48,7 @@ The BloomAPI incident response process follows the process recommended by SANS, 
 		4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
 		5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
 		6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-11. The Security Officer, Privacy Officer, or BloomAPI representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+11. The Security Officer, Privacy Officer, or BloomAPI representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security Officer and the Privacy Officer.
 12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to BloomAPI and potentially external.
 13. If an incident involves Part 2 records, SUD counseling notes, reproductive health information, legal process, law enforcement requests, or other specially protected information, the Privacy Officer is included in the response before disclosure or external production of records.
 
@@ -135,4 +135,4 @@ Individuals needed and responsible to respond to a security incident make up a S
 * Security Officer
 * Privacy Officer
 * Senior Management
-* VP of Engineering
+* Engineering (workforce members with production access)

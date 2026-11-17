@@ -20,4 +20,4 @@ Within the BloomAPI Platform all data transmission is encrypted and all hard dri
 
 ## Version Control
 
-Policies were last reviewed and updated November 16, 2026, by Tyler Brown, HIPAA Security & Privacy Officer. They are reviewed at least annually (see the [Policy Management Policy](policy_management_policy.md)).
+Policies were last reviewed and updated November 16, 2026, by Tyler Brown, HIPAA Security Officer. They are reviewed at least annually (see the [Policy Management Policy](policy_management_policy.md)).

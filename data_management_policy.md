@@ -19,7 +19,7 @@ Violation of this policy and its procedures by workforce members may result in c
 ## Backup Policy and Procedures
 
 1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for BloomAPI Customers.
-2. The Security Officer is in charge of backups. Backups are automated through Google Cloud; Tyler Brown (Security Officer) and Parsa Khazaeepoul (Engineering) are responsible for monitoring them and performing restores.
+2. The Security Officer is in charge of backups. Backups are automated through Google Cloud; Tyler Brown (Security Officer) and Parsa Khazaeepoul (Privacy Officer) are responsible for monitoring them and performing restores.
 3. Workforce members who manage backups are trained on the backup and restore procedures.
 4. Document backups 
 	* Name of the system

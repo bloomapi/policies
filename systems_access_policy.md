@@ -43,7 +43,7 @@ Access to BloomAPI systems and application is limited for all users, including b
 * Privileged access is granted only when required for a defined role or task, reviewed at least quarterly, and removed when it is no longer required.
 * All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 * Generic accounts are not allowed on BloomAPI systems.
-* In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
+* In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security Officer to limit access and reduce risk of unauthorized access.
 * Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
 ## Workforce Clearance Procedures

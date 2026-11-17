@@ -1,7 +1,7 @@
 # HIPAA Compliance Policies
 
 These are BloomAPI's own HIPAA compliance policies for BloomText. BloomAPI maintains them internally, and our HIPAA
-Security & Privacy Officer reviews them at least annually and after material changes. They were last reviewed in
+Security Officer and Privacy Officer review them at least annually and after material changes. They were last reviewed in
 November 2026.
 
 ## Policy Index

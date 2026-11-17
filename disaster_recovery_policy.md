@@ -1,6 +1,6 @@
 # Disaster Recovery Policy
 
-The BloomAPI Contingency Plan establishes procedures to recover BloomAPI following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the BloomAPI HIPAA Security & Privacy Officer.
+The BloomAPI Contingency Plan establishes procedures to recover BloomAPI following a disruption resulting from a disaster. This Disaster Recovery Policy is maintained by the BloomAPI HIPAA Security Officer.
 
 The following objectives have been established for this plan:
 
@@ -42,10 +42,10 @@ BloomAPI defined two categories of systems from a disaster recovery perspective.
 
 ## Line of Succession
 
-The following order of succession ensures that decision-making authority for the BloomAPI Contingency Plan is uninterrupted. The HIPAA Security & Privacy Officer is the Recovery Lead, responsible for ensuring the safety of personnel and the execution of procedures documented within this Contingency Plan. If the Recovery Lead is unable to act or delegates this responsibility, the next person in the list below acts as Recovery Lead. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
+The following order of succession ensures that decision-making authority for the BloomAPI Contingency Plan is uninterrupted. The HIPAA Security Officer is the Recovery Lead, responsible for ensuring the safety of personnel and the execution of procedures documented within this Contingency Plan. If the Recovery Lead is unable to act or delegates this responsibility, the next person in the list below acts as Recovery Lead. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-1. Tyler Brown, CEO and HIPAA Security & Privacy Officer: tyler@bloomapi.com
-2. Parsa Khazaeepoul, Engineering: parsa@bloomapi.com
+1. Tyler Brown, CEO and HIPAA Security Officer: tyler@bloomapi.com
+2. Parsa Khazaeepoul, HIPAA Privacy Officer: parsa@bloomapi.com
 
 ## Responsibilities
 
@@ -74,7 +74,7 @@ This section covers disruptions that are not caused by damage to BloomAPI system
 
 ### Key-person unavailability
 
-* At least two workforce members must be able to access and operate production systems, so that no single person's absence stops recovery.
+* Besides the primary person, at least one backup workforce member must be able to access and operate production systems, so that no single person's absence stops recovery.
 * Operational runbooks, infrastructure code, and deployment procedures are kept in the BloomAPI code repository rather than with an individual.
 * Access to the accounts needed for recovery (GCP, the domain registrar, the code repository, and critical vendors) must not depend on a single person. Recovery credentials must be kept in a password manager and protected by multi-factor authentication.
 * If the Recovery Lead is unavailable, the line of succession above applies.
