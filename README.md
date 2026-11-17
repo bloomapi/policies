@@ -27,6 +27,7 @@ November 2026.
 * [Data Retention Policy](data_retention_policy.md)
 * [Employees Policy](employees_policy.md)
 * [Approved Tools Policy](approved_tools_policy.md)
+* [AI Use Policy](ai_use_policy.md)
 * [3rd Party Policy](3rd_party_policy.md)
 * [Subprocessors](subprocessors.md)
 * [Key Definitions](key_definitions.md)

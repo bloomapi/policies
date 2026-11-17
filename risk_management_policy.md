@@ -34,6 +34,7 @@ This policy establishes the scope, objectives, and procedures of BloomAPI's info
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of BloomAPI's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. BloomAPI tracks regulatory changes affecting HIPAA, HITECH, Part 2, and state breach notification laws. Proposed rules, including the 2025 HIPAA Security Rule cybersecurity NPRM, are tracked as readiness items until finalized and assigned a compliance date.
+9. AI risk, including accuracy and false positives, is reviewed at least annually as part of the HIPAA risk analysis and whenever an AI service or its use changes. The Security Officer owns this review, and the Privacy Officer reviews privacy impact (see the [AI Use Policy](ai_use_policy.md)).
 
 ## Process Documentation
 

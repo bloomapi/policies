@@ -36,4 +36,5 @@ BloomAPI is committed to ensuring all workforce members actively address securit
 
 1. Security awareness training is part of the HIPAA training above: it is given within 30 days of starting and refreshed at least annually. It covers phishing and social engineering, password and multi-factor authentication practices, safe handling of ePHI, and how to report a suspected incident.
 2. Phishing awareness is covered in this annual security and HIPAA training. BloomAPI does not currently run simulated phishing exercises.
-3. Training completion records are retained for six years (see the [Roles Policy](roles_policy.md)).
+3. AI rules, including the ban on entering Customer data into unapproved AI tools, are covered in onboarding and in the annual security and HIPAA training (see the [AI Use Policy](ai_use_policy.md)).
+4. Training completion records are retained for six years (see the [Roles Policy](roles_policy.md)).

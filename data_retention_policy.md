@@ -16,6 +16,7 @@ Despite not being a requirement within HIPAA, BloomAPI understand and appreciate
 	4. Customer data retained in backups, logs, legal holds, security records, or other systems where immediate deletion is infeasible remains protected under BloomAPI policies and applicable agreements until it is deleted or destroyed in the normal retention cycle.
 	5. Part 2 records are retained, returned, or destroyed according to Customer instructions, applicable Part 2 agreements, legal holds, and applicable law.
 	6. Cloud Spanner backups are retained for 30 days.
+	7. The Privacy Officer records each customer data deletion with its date and keeps the record for 6 years; a written confirmation of deletion is provided to the customer on request.
 
 ## Retention Verification TODOs
 
